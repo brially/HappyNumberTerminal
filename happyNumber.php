@@ -11,7 +11,7 @@ $in_number = readline("Enter Number to test:" );
 
 try {
     if(NumberChecker::isHappy($in_number)) echo "$in_number is a happy number0\n";
-    else echo "$in_number is not a happy number\n";
+    else echo "$in_number is a sad number\n";
     exit;
 }
 catch (Exception $e) {
